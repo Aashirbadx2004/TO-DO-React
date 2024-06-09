@@ -3,5 +3,13 @@
 @tailwind utilities;
 
 
-
+@media (max-width: 768px) {
+  .container {
+    /* Adjust styles for smaller screens */
+    width: 100%;
+    max-width: none;
+    min-height: auto;
+    padding: 1rem; /* Adjust padding for better spacing on smaller screens */
+  }
+}
 
